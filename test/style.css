@@ -1,46 +1,32 @@
+@font-face {
+    font-family: buttermilk;
+    src: url(./buttermilk-webfont.woff);
+}
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box*;
 }
-.menu{
-   font-size: 30px;
-   /* text-decoration: none;
-   color: black; */
-   background-color: black;
-   height: 70px;
-
+html,body{
+    height: 100%;
+    width: 100%;
 }
-.menu a{
-    text-decoration: none;
-    color: black;
-    margin-left: 230px;
-    color: white;
+.bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(./moon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.mid img{
-    height: 500px;
-    width: 1370px;
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: buttermilk;
+    font-weight: 100;
+    font-size: 190px;
+    color: #fff;
+    mix-blend-mode: overlay;
 }
-.mid h1{
-    margin-top: -270px;
-    color: white;
-    margin-left: 130px;
-}
-footer .end{
-    border: 2px solid white;
-    height: 300px;
-    width: 600px;
-    margin-top: 300px;
-
-}
-footer button{
-    font-size: 40px;
-    background-color: gold;
-    margin-top: -50px;
-    margin-left: 30px;
-    color: black;
-    border-radius: 5px;
-}
-footer img{
-    margin-left: 700px;
-margin-top: -344px;
-} 
